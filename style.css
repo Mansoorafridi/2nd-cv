@@ -3,8 +3,9 @@ body{
     display: flex;
     justify-content: center;
 }.container{
- width: 900px;height: 610px;display: grid;grid-template-columns:1fr 2fr ;
- border: 5px solid black;border-radius: 8px;
+ width: 900px;height: 610px;
+ display:grid;grid-template-columns:1fr 2fr ;
+ border: 5px solid black;border-radius: 8px; 
 } .container .left{
     background-color:#649694 ;
 }
@@ -13,22 +14,22 @@ body{
 }
 
 img{
-    border-radius: 150px;margin-left: 65px;margin-top: 25px;
+    border-radius: 150px;margin-left: 50px ;margin-top: 25px;
 } .first{
     margin-left: 27px;margin-top: 30px;
 } .second{
     margin-left: 15px;margin-top: 75px;
-} .afridi{
-    margin-left: 65px;position: relative;bottom: 15px;
-} .third{
+ } 
+
+ .third{
     margin-top: 20px;margin-left: 15px;
 } .fourth{
     margin-left: 15px;margin-top: 72px;
 } .fifth{
 margin-top: 38px;
-} @media screen {min-width: 475px;}
+/* } @media screen {min-width: 475px;}
     @media screen {min-width: 640px;}
 @media screen {min-width: 768px;}
 @media screen {min-width: 1024px;}
 @media screen {min-width: 1280px;}
-@media screen {min-width: 1536px;}
+@media screen {min-width: 1536px;} */
